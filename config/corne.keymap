@@ -67,8 +67,8 @@
             key-positions = <25 11>;
         };
 
-        boot {
-            bindings = <&bootloader>;
+        reset {
+            bindings = <&sys_reset>;
             key-positions = <37 40>;
         };
 
